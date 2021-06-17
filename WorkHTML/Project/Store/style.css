@@ -38,7 +38,7 @@ p:last-child, p:nth-last-child(2) {
 	overflow:hidden;
 	border: 1px solid black;
 	border-radius:5px;
-	background:linear-gradient(to top, rgb(30,30,140),rgb(60,60,250));
+	background:linear-gradient(to top, rgb(30,60,120),rgb(72,72,72));
 	color:#fff;
 	margin:auto;
 	padding:10px;
