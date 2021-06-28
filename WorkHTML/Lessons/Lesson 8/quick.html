@@ -1,1 +1,73 @@
-qqq
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Формы</title>
+  <style>
+    h1 {
+      font-size: 55px;
+      color: #51cf57;
+    }
+
+    h2 {
+        font-size: 40px;
+        color: #cf5151
+    }
+
+    div {
+      margin: 0 auto;
+    }
+
+    .form-container {
+      width: 400px;
+      padding: 30px;
+    }
+  </style>
+</head>
+
+<body>
+    <h1 align="center">Нипанимаючтоделаювапсчэ</h1>
+    <h2 align="center">Говорила мама иди на завод, ты не хакер, а хрюкер!</h2>
+    <div class="form-container">
+      <form name="user-form" action="send.php" autocomplete="off" enctype="multipart/form-data" method="post">
+        <fieldset>
+          <legend>Многострочные текстовые поля</legend>
+          <p> Плюшками инетерсуетесь?
+            <input type="text" value=""  name="user" placeholder="Напишите свой ответ">
+          </p>
+          <p>
+            <textarea name="aboutMe" id="resume" cols="30" rows="10" placeholder="Введите текст"></textarea>
+          </p>
+          <!----------------------------------------->
+  <div class="form-container">
+    <form name="user-form-2" action="send.php" enctype="text/plain">
+      <fieldset>
+        <legend>Выпадающие списки</legend>
+        <p>
+          <select size="1" name="one">
+            <option disabled>Выберите город</option>
+            <option value="Orsha">Орша</option>
+            <option value="Vitebsk">Витебск</option>
+            <option value="Minsk">Минск</option>
+            <option value="Moscow">Москва</option>
+          </select>
+        </p>
+        <p>
+            <select size="3" name="two">
+                <option disabled selected>Сделайте выбор</option>
+                <option value="No rules!">Выбора нет</option>
+                <option value="little">Или немного есть</option>
+
+            </select>
+        </p>
+          <p>
+            <input type="submit" value="ЖМИ! СРОЧНО!">
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    
+</body>
+
+</html>
