@@ -1,0 +1,12 @@
+h4 + ol>li{
+    font-weight:bold;
+}
+
+li ol>li{
+    font-weight:normal;
+}
+
+ul li{
+    font-weight:bold;
+    font-style: italic;
+}
