@@ -1,6 +1,27 @@
 #but {
-    display: block;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
     margin: 20px;
     padding: 10px;
     background: linear-gradient(to top, #4fbd24, #41ec03);
+    
+}
+
+.div_1:hover {
+        background-size: 30px 30px;
+}
+
+.div_1::before {
+    position: absolute;
+    top: 100%;
+    left: 5%;
+    content: "";
+
+    border: 20px solid transparent;
+    border-top: 20px solid green;
 }
