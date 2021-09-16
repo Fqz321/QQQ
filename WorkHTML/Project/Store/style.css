@@ -5,15 +5,24 @@ font-size:50px;
 font-family: Helvetica;
 text-shadow:1px 1px 1px #ccc;
 }
-p{font-family: Helvetica;
+
+.main-header {
+	display: flexbox;
+	
+}
+
+
+p {font-family: Helvetica;
 font-size:18px;
 margin:3px 7px;
 
 }
+
 p:first-letter{
 	margin-left:40px;
 }
-h2{	
+
+h2 {	
 text-align:left;
 color: rgb(24,24,24);
 font-size:26px;
@@ -21,14 +30,14 @@ font-family: Helvetica;
 
 }
 
-h3
-{	
+h3 {	
 text-align:left;
 color: rgb(30,60,120);
 font-size:32px;
 font-family: Helvetica;
 text-shadow:2px 2px 1px #ccc;
 }
+
 p:last-child:first-letter,p:nth-last-child(2):first-letter{margin-left:0px;}
 p:last-child, p:nth-last-child(2) {
 	
@@ -45,5 +54,7 @@ p:last-child, p:nth-last-child(2) {
 	text-align:center;
 	cursor:pointer;
 }
+
 p:last-child:hover, p:nth-last-child(2):hover {
 	background:linear-gradient(to top, rgb(100,100,180),rgb(140,140,250));
+}
