@@ -1,0 +1,84 @@
+header,aside,article,footer,section,nav{
+	font-family: helvetica;
+	font-size: 14pt;
+	border:#CCC 2px solid;
+	 padding:5px 10px;
+}
+aside,article,section{
+	background-color: #ebedf5;
+}
+
+header{
+ background-color: #4d68a2;
+ color:#fff;
+ 
+ }
+
+ #container {
+	 width: 1024px;
+	 margin: 0px auto;
+	 background-color: white;
+	 overflow: hidden;
+ }
+
+#movie {
+	width: 3072px;
+	height: 400px;
+	padding: 0px;
+	animation-name: my_movie;
+	animation-duration: 10s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	margin: 0px;
+	float: left;
+}
+
+@keyframes my_movie{
+    0%{
+        margin-left:0px;
+        opacity:1;
+    }
+    20%{
+        margin-left:0px;
+        opacity:1;  
+    }
+    25%{
+        opacity:0.3;}
+    30%{
+        margin-left:-1024px;
+        opacity:1;
+    }
+    70%{
+        margin-left:-1024px;
+        opacity:1;  
+    }
+    75%{
+        opacity:0.3;}
+    80%{
+        margin-left:-2048px;
+        opacity:1;
+    }
+    100%{
+        margin-left:-2048px;
+        opacity:1;
+    }
+}
+
+
+#topmenu{
+background-color: #313e99;
+color:#fff;
+} 
+p{margin:2px;}
+
+.left {float:left; width:250px;}
+
+.right {float:right; width:250px;}
+
+
+.center {margin:0 280px;}
+footer{
+ background-color: #4d68a2;
+ color:#fff;
+  clear: both;
+}

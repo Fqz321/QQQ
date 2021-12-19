@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    max-width: 1000px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px 350px 50px;
+    grid-template-areas: "header header header header header" 
+                         "content content content content menu" 
+                         "footer footer footer footer footer";
+    grid-gap: 5px;
+    font-size: 45px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: semi-bold;
+    color: white;
+}
+
+.header {
+    background-color: lightgreen;
+    grid-area: header;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: aquamarine;
+    grid-area: content;
+    border-radius: 10px;
+}
+
+.menu {
+    background-color: #fce980;
+    grid-area: menu;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: plum;
+    grid-area: footer;
+    border-radius: 10px;
+}
